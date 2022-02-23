@@ -56,7 +56,7 @@ hg.CreateObject(scene, hg.TranslationMat4(hg.Vec3(0, 0, 0)), ground_ref, [mat_gr
 
 # Load GLTF-imported model
 # note: this will add-up to what is already existing in the scene
-hg.LoadSceneFromAssets("pharao/scene.scn", scene, res, hg.GetForwardPipelineInfo())
+hg.LoadSceneFromAssets("pharao/scene_Sketchfab_Scene.scn", scene, res, hg.GetForwardPipelineInfo())
 
 # Setup 2D rendering to display eyes textures
 quad_layout = hg.VertexLayout()
